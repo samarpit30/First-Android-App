@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="screen1">#4286f4</color>
+    <color name="screen2">#f45c41</color>
+    <color name="screen3">#4cff7c</color>
+    <color name="themePrimary">#2d2d2d</color>
+
+    <color name="active_dots">#FFFFFF</color>
+    <color name="default_dots">#c6c6c6</color>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.diginfoexpert.MBAutodeals">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:required="true"/>
+
+    <supports-screens
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:normalScreens="true"
+        android:anyDensity="true"/>
+
+    <application
+        android:name=".Globals"
+        android:allowBackup="true"
+        android:icon="@mipmap/audi"
+        android:roundIcon="@mipmap/audi_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:testOnly="false"
+        android:largeHeap="true">
+        <activity android:name=".Web_json_product_Activity"></activity>
+        <activity android:name=".Web_jsonActivity">
+
+        </activity>
+        <activity android:name=".jSonParseActivity"></activity>
+        <activity android:name=".SignUpActivity"
+            android:noHistory="true"/>
+        <activity android:name=".LoginActivity"
+            android:noHistory="true"/>
+        <activity android:name=".ProductActivity" />
+        <activity android:name=".IntroActivity" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
