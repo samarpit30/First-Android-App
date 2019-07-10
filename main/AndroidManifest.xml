@@ -3,7 +3,6 @@
     package="com.diginfoexpert.MBAutodeals">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-feature android:required="true"/>
 
     <supports-screens
         android:resizeable="true"
